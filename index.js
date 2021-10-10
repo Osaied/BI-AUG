@@ -17,3 +17,12 @@
 // lastNameLength = lastName.length;
 // var text = ""testing: 1,2, 3"";
 // var pattern = /\d+/g; " 
+function printRangeOfNumber(i) {
+    if (i <= 0) {
+
+    }
+    console.log(i)
+    i = i - 1
+    printRangeOfNumber(i)
+
+}
