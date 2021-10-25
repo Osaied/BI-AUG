@@ -31,7 +31,7 @@
 // console.log(a, b, c);
 
 // 7.Understanding Case Sensitivity in Variables:
-// var someVariable;
+// var someVariable = 120;
 // var anotherVariableName;
 // var thisVariableNameIsSoLong;
 // console.log(someVariable);
@@ -97,14 +97,14 @@ Math.floor(11 / 3) = 3(Quotient)
 // console.log(a, b,);
 
 // 20.  Compound Assignment With Augmented Multiplication:
-// var a = a * 5;
+// var a = 5;
 // a *= 9;
 // console.log(a);
 
 // 21. Compound Assignment With Augmented Division:
-// a /= 1;
-// b /= 3;
-// E /= "Rahman";
+// var a = 10;
+// a /= 2;
+// console.log(a);
 
 // 22. Declare String Variables:
 // var myFirstName = "Mohammed";
@@ -112,8 +112,7 @@ Math.floor(11 / 3) = 3(Quotient)
 // console.log(myFirstName, myLastName);
 
 // 23.Escaping Literal Quotes in Strings:
-// var myStr = "I am a \"double quoted\"string inside\"double quotes\ "
-
+// var myStr = "I am a \"double quoted\"string inside\"double quotes\".";
 // console.log(myStr);
 
 // 24. Quoting Strings with Single Quotes:
@@ -122,8 +121,8 @@ Math.floor(11 / 3) = 3(Quotient)
 // console.log(goodStr, badStr);
 
 // 25. Escape Sequences in Strings:
-// var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
-// console.log(myStr);
+var myStr = "FirstLine\n\t\SecondLine\nThirdLine";
+console.log(myStr); 
 
 // 26. Concatenating Strings with Plus Operator:
 // var myStr = "This is the start." + "and This is the end."
